@@ -13,3 +13,6 @@ beskriver ett möjligt tillvägagångsätt att identifiera 4* flaggor från en n
 Flagga 1 {functional_treshold_power}:
 
 Genom analys av TCP-ström 0 (paket 1-28) upptäcktes att användaren initierat en filuppladdning av filen msg.txt till en Dropbox-server. Portberäkningen för FTP-överföringen (PORT 10,0,0,10,160,249) resulterade i TCP-port 41209.
+
+
+test23
