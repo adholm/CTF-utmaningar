@@ -1,8 +1,6 @@
 # Dokumentation av CTF-utmaningen "Exfiltratören" publicerad av challenge.fra.se.
 **Fil:** Exfiltratoren.pcap
-
 **Antal innehållande flaggor:** 7
-
 **Identifierade flaggor: 4*** (Analysen är pågående och antalet identifierade flaggor kan komma att uppdateras)
 
 Denna dokumentation beskriver mitt tillvägagångsätt att identifiera flaggor i nätverksdumpen *exfiltratoren.pcap*. Analysen omfattar bland annat nätverkstrafikanalys, kryptografi och steganografi.
