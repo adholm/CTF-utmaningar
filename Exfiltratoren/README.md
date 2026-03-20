@@ -15,5 +15,5 @@ Denna dokumentation redogör för identifiering och extraktion av hittills fyra 
 1. Upprättar virtuell Kali Linux-miljö med VirtualBox.
 2. Öppnar `exfiltratoren.pcap` i Wireshark.
 3. Följer TCP-ström 0 (paket 1-28) och ser att användaren använt FTP-protokollet `STOR` för uppladdning av filen `msg.txt` till en Dropbox server. Portberäkningen för FTP-överföringen (`PORT 10,0,0,10,160,249`) ger TCP-port 41209.
-4. Filtrerar alla strömmar enligt ovanstående port: `tcp.port == 41209` och isolerar paket 25. Innehållet i `msg.txt` utgör meddelandet: > "De ..r mig p.. sp..ren - jag g..r ..ver till kamouflerad kommunikation. Vi h..rs!" samt Base64-strängen `ZmxhZ2dhe2Z1bmN0aW9uYWxfdHJlc2hvbGRfcG93ZXJ9`.
+4. Filtrerar alla strömmar enligt ovanstående port: `tcp.port == 41209` och isolerar paket 25. Innehållet i `msg.txt` utgör meddelandet: `"De ..r mig p.. sp..ren - jag g..r ..ver till kamouflerad kommunikation. Vi h..rs!"` samt Base64-strängen `ZmxhZ2dhe2Z1bmN0aW9uYWxfdHJlc2hvbGRfcG93ZXJ9`.
 5. 
